@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PRM391x_Project_1_hungnmfx00878</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="message">Message</string>
+    <string name="sender">Sender</string>
+    <string name="time">Time</string>
+    <string name="setup">SETUP</string>
+    <string name="call_to">Call to... !</string>
+    <string name="someone">Someone</string>
+    <string name="phone">Phone</string>
+    <string name="info">Please check your information!</string>
+    <string name="type">The phone is not correct, please check!</string>
+    <string name="sms_sent">Message will be sent after </string>
+    <string name="phone_call">A call will be done after </string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/phone"
+            android:background="@color/orange_700"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_phone"
+            android:autofillHints="phone"
+            android:inputType="phone"
+            android:hint="@string/sender" />
+
+        <EditText
+            android:id="@+id/message"
+            android:background="@color/orange_200"
+            android:textColor="@color/orange_500"
+            android:textColorHint="@color/orange_500"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:autofillHints=""
+            android:hint="@string/message" />
+
+        <RadioGroup
+            android:id="@+id/unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/hour"
+                android:textColor="@color/orange_700"
+                android:buttonTint="@color/orange_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hour" />
+            <RadioButton
+                android:id="@+id/minute"
+                android:textColor="@color/orange_700"
+                android:buttonTint="@color/orange_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minute" />
+            <RadioButton
+                android:id="@+id/second"
+                android:textColor="@color/orange_700"
+                android:buttonTint="@color/orange_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_time"
+            android:autofillHints=""
+            android:hint="@string/time"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/setup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/orange_500"
+            android:text="@string/setup"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
